@@ -11,16 +11,14 @@
         <relativePath/>
     </parent>
     
-    <groupId>com.webhook</groupId>
-    <artifactId>webhook-processor</artifactId>
-    <version>1.0.0</version>
-    <name>webhook-processor</name>
-    <description>Spring Boot Webhook Processor</description>
+    <groupId>com.bajajfinserv</groupId>
+    <artifactId>webhook-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>webhook-service</name>
+    <description>Webhook Service for Bajaj Finserv</description>
     
     <properties>
         <java.version>11</java.version>
-        <gson.version>2.10.1</gson.version>
-        <start-class>com.webhook.WebhookApplication</start-class>
     </properties>
     
     <dependencies>
@@ -29,17 +27,8 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.retry</groupId>
-            <artifactId>spring-retry</artifactId>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>${gson.version}</version>
+            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -59,7 +48,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>${start-class}</mainClass>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
@@ -70,4 +58,4 @@
             </plugin>
         </plugins>
     </build>
-</project>
+</project> 

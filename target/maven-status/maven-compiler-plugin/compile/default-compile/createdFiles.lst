@@ -1,3 +1,7 @@
-com/webhook/WebhookApplication.class
-com/webhook/service/NthLevelFollowersService.class
-com/webhook/config/AppConfig.class
+com/bajajfinserv/component/WebhookInitializer.class
+com/bajajfinserv/service/WebhookService.class
+com/bajajfinserv/model/WebhookRequest.class
+com/bajajfinserv/WebhookServiceApplication.class
+com/bajajfinserv/model/WebhookResponse$User.class
+com/bajajfinserv/model/WebhookResponse.class
+com/bajajfinserv/model/WebhookResponse$WebhookData.class
