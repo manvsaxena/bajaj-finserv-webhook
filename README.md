@@ -1,6 +1,6 @@
 # Bajaj Finserv Webhook Service
 
-A Spring Boot application that automatically interacts with a remote API at application startup, without any manual HTTP trigger.
+A Spring Boot application that automatically interacts with a remote API at application startup, without any manual HTTP trigger for BAJAJ FINSERV 
 
 ## Features
 
