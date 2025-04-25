@@ -39,6 +39,6 @@ mvn spring-boot:run
 
 ## Download
 
-You can download the latest JAR file from the [releases](https://github.com/yourusername/bajaj-finserv-webhook/releases) page.
+You can download the latest JAR file from the [releases](https://github.com/manvsaxena/bajaj-finserv-webhook/releases) page.
 
-Direct download link: [webhook-service-0.0.1-SNAPSHOT.jar](https://github.com/yourusername/bajaj-finserv-webhook/releases/download/v1.0.0/webhook-service-0.0.1-SNAPSHOT.jar) # bajaj-finserv-webhook
+Direct download link: [webhook-service-0.0.1-SNAPSHOT.jar](https://github.com/manvsaxena/bajaj-finserv-webhook/releases/download/v1.0.0/webhook-service-0.0.1-SNAPSHOT.jar) # bajaj-finserv-webhook
